@@ -1,13 +1,15 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import User from './User'
+import { UserContext } from './contexts/UserContext'
 
-const UserList = ({users,changeColor})=> {
+const UserList = ()=> {
+  const context=useContext(UserContext)
+  console.log("User List :",context);
   return (
     <>
         <h2>User List</h2>
-        {users.map(user =>(< User key={user.name} user={user} changeColor={changeColor}/>))}
+        {context.users.map(user =>(< User key={user.name} user={user}/>))}
     </>
-    
   )
 }
 
