@@ -2,22 +2,43 @@
   text-align: center;
 }
 div.container{
-  margin-top: 20px;
-  width:600px;
-  margin-left: 30px;
-  height: 630px;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  margin-top: 5px;
   background-color: bisque;
   display: flex;
-  border:1px solid
+  border:1px solid yellow;
+  clear:both;
+  float: left;
+
 }
-div.metin{
-  margin-left: 46.2%;
-  margin-right:0.5%;
-  margin-top: -550px;
+div {
+    margin:auto;
+}
+.ana{
+  width: 40%;
+  display: inline-block;
+  width: 60%;
+  position: relative;
+}
+@media screen and (max-width: 50%) {
+  
+  .ana,.metin {
+      width: 70%;
+  }
+}
+.metin{
+  display: inline-block;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  margin-top: 60px;
   color:white;
   background-color:indigo;
   border-radius: 10px 15px 10px 15px;
   border: 2px solid red;
+  float: left;
 }
 .btn-success{
   margin-left: 250px;

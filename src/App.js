@@ -34,38 +34,38 @@ function App() {
   }
   return (
     <>
-    <div className="container" >
-      <div className="ana">
-        <button className="btn-success" onClick={fetchDog} disabled={loading}>Fetch Dog</button>
-        {data && (
-          <div>
-            <img id="img" src={data} alt="Random dog" />
-          </div>
-        )}
-        {error && <p>{error}</p>}
+      <div className="container" >
+        <div className="ana">
+          <button className="btn-success" onClick={fetchDog} disabled={loading}>Fetch Dog</button>
+          {data && (
+            <div>
+              <img id="img" src={data} alt="Random dog" />
+            </div>
+          )}
+          {error && <p>{error}</p>}
+        </div>
+        <div className="metin">
+          <p>1. Ölü bir aslan olmaktansa, canlı bir köpek olmayı isterim. Heinrich Heine<br /><br />
+            2. Uzaktan havlayan köpek, ısırmaz. Thomas Muller<br /><br />
+
+            3. Meydanı boş bulunca, geçen bir köpek bile büyük etki yapar. Paul Valery<br /><br />
+
+            4. Köpekler boğuşurken, birbirlerini ne kadar çok ısırırlarsa o kadar kızarlar. Tolstoy<br /><br />
+
+            5. Köpekle yatan, pireyle kalkar. İspanyol Atasözü<br /><br />
+
+            6. Evli kalmak çok zor, eşim köpeğimizi dudağından öpüyor; ama kesinlikle benim bardağımdan bir şey içmiyor. Rodney Dangerfield<br /><br />
+
+            7. Arayan köpek, eninde sonunda kemik bulur. Barrow<br /><br />
+
+            8. Köpeğin ölümü de köpekçe olur. Anton Çehov<br /><br />
+
+            9. Köpek, mamur olan yerde bulunur. Mevlana<br /><br />
+
+            10. Ne kadar çok insanla tanışırsam, köpeğimi o kadar, daha çok seviyorum.</p>
+        </div>
       </div>
-    </div>
-    <div className="metin">
-      <p>1. Ölü bir aslan olmaktansa, canlı bir köpek olmayı isterim. Heinrich Heine<br/><br/>
-        2. Uzaktan havlayan köpek, ısırmaz. Thomas Muller<br/><br/>
-
-3. Meydanı boş bulunca, geçen bir köpek bile büyük etki yapar. Paul Valery<br/><br/>
-
-4. Köpekler boğuşurken, birbirlerini ne kadar çok ısırırlarsa o kadar kızarlar. Tolstoy<br/><br/>
-
-5. Köpekle yatan, pireyle kalkar. İspanyol Atasözü<br/><br/>
-
-6. Evli kalmak çok zor, eşim köpeğimizi dudağından öpüyor; ama kesinlikle benim bardağımdan bir şey içmiyor. Rodney Dangerfield<br/><br/>
-
-7. Arayan köpek, eninde sonunda kemik bulur. Barrow<br/><br/>
-
-8. Köpeğin ölümü de köpekçe olur. Anton Çehov<br/><br/>
-
-9. Köpek, mamur olan yerde bulunur. Mevlana<br/><br/>
-
-10. Ne kadar çok insanla tanışırsam, köpeğimi o kadar, daha çok seviyorum.</p>
-    </div>
-  </>
+    </>
   )
 }
 //useReducer
