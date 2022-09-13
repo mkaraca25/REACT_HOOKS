@@ -1,39 +1,41 @@
 .App {
   text-align: center;
 }
-div.container{
+div.container-md{
+  border-radius: 35px 10px 35px 10px;
+  display: flex;
   position: relative;
   margin: auto;
-  width: 100%;
+  margin-left: 8%;
+  margin-right: 3%;
   margin-top: 5px;
   background-color: bisque;
-  display: flex;
   border:1px solid yellow;
   clear:both;
   float: left;
+  width: 100%;
 
 }
 div {
     margin:auto;
 }
 .ana{
-  width: 40%;
-  display: inline-block;
   width: 60%;
+  display: inline-block;
   position: relative;
 }
-@media screen and (max-width: 50%) {
+@media screen and (max-width: 500px) {
   
   .ana,.metin {
-      width: 70%;
+      width: 100%;
   }
 }
 .metin{
   display: inline-block;
-  width: 60%;
+  width: 78%;
   margin: auto;
   position: relative;
-  margin-top: 60px;
+  margin-top: 50px;
   color:white;
   background-color:indigo;
   border-radius: 10px 15px 10px 15px;
@@ -41,8 +43,9 @@ div {
   float: left;
 }
 .btn-success{
-  margin-left: 250px;
+  margin-left: 180px;
   margin-top: 5px;
+  width: 150px;
   margin-bottom: 5px;
   border-radius: 5px 10px 5px 10px;
 }
@@ -52,19 +55,9 @@ body{
 #img{
   border: 2px solid red;
   border-radius: 15px 10px 15px 10px;
-  height: 580px;
-  width: 570px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 520px;
+  width: 500px;
+  margin-bottom: 1%;
 }
 
 .App-header {
@@ -76,10 +69,6 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

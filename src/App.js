@@ -34,9 +34,9 @@ function App() {
   }
   return (
     <>
-      <div className="container" >
+      <div className="container-md" >
         <div className="ana">
-          <button className="btn-success" onClick={fetchDog} disabled={loading}>Fetch Dog</button>
+          <button className="btn-success" onClick={fetchDog} disabled={loading}><strong><em>Fetch Dog</em></strong></button>
           {data && (
             <div>
               <img id="img" src={data} alt="Random dog" />
@@ -45,24 +45,24 @@ function App() {
           {error && <p>{error}</p>}
         </div>
         <div className="metin">
-          <p>1. Ölü bir aslan olmaktansa, canlı bir köpek olmayı isterim. Heinrich Heine<br /><br />
-            2. Uzaktan havlayan köpek, ısırmaz. Thomas Muller<br /><br />
+          <p>1. <strong>Ö</strong>lü bir aslan olmaktansa, canlı bir köpek olmayı isterim. <u>Heinrich Heine</u><br /><br />
+            2. <strong>U</strong>zaktan havlayan köpek, ısırmaz. <u>Thomas Muller</u><br /><br />
 
-            3. Meydanı boş bulunca, geçen bir köpek bile büyük etki yapar. Paul Valery<br /><br />
+            3. <strong>M</strong>eydanı boş bulunca, geçen bir köpek bile büyük etki yapar. <u>Paul Valery</u><br /><br />
 
-            4. Köpekler boğuşurken, birbirlerini ne kadar çok ısırırlarsa o kadar kızarlar. Tolstoy<br /><br />
+            4. <strong>K</strong>öpekler boğuşurken, birbirlerini ne kadar çok ısırırlarsa o kadar kızarlar. <u>Tolstoy</u><br /><br />
 
-            5. Köpekle yatan, pireyle kalkar. İspanyol Atasözü<br /><br />
+            5. <strong>K</strong>öpekle yatan, pireyle kalkar. <u>İspanyol Atasözü</u><br /><br />
 
-            6. Evli kalmak çok zor, eşim köpeğimizi dudağından öpüyor; ama kesinlikle benim bardağımdan bir şey içmiyor. Rodney Dangerfield<br /><br />
+            6. <strong>E</strong>vli kalmak çok zor, eşim köpeğimizi dudağından öpüyor; ama kesinlikle benim bardağımdan bir şey içmiyor. <u>Rodney Dangerfield</u><br /><br />
 
-            7. Arayan köpek, eninde sonunda kemik bulur. Barrow<br /><br />
+            7. <strong>A</strong>rayan köpek, eninde sonunda kemik bulur. <u>Barrow</u><br /><br />
 
-            8. Köpeğin ölümü de köpekçe olur. Anton Çehov<br /><br />
+            8. <strong>K</strong>öpeğin ölümü de köpekçe olur. <u>Anton Çehov</u><br /><br />
 
-            9. Köpek, mamur olan yerde bulunur. Mevlana<br /><br />
+            9. <strong>K</strong>öpek, mamur olan yerde bulunur. <u>Mevlana</u> <br /><br />
 
-            10. Ne kadar çok insanla tanışırsam, köpeğimi o kadar, daha çok seviyorum.</p>
+            10. <strong>N</strong>e kadar çok insanla tanışırsam, köpeğimi o kadar, daha çok seviyorum.</p>
         </div>
       </div>
     </>
