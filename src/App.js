@@ -34,7 +34,7 @@ function App() {
   }
   return (
     <>
-    <div className="container " >
+    <div className="container" >
       <div className="ana">
         <button className="btn-success" onClick={fetchDog} disabled={loading}>Fetch Dog</button>
         {data && (
