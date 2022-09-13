@@ -1,13 +1,37 @@
 .App {
   text-align: center;
 }
-.container{
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  width:200px;
-  height: 200px;
+div.container{
+  margin: auto;
+  margin-top: 20px;
+  width:630px;
+  margin-left: 50px;
+  height: 650px;
   background-color: bisque;
+  display: flex;
+  border:1px solid
+}
+div.metin{
+  margin-left: 41%;
+  margin-right:2%;
+  margin-top: -550px;
+  color:white;
+  background-color:indigo;
+}
+.btn-success{
+  margin-left: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px 10px 5px 10px;
+}
+body{
+  background-color: teal;
+}
+#img{
+  border: 2px solid red;
+  border-radius: 15px 10px 15px 10px;
+  height: 600px;
+  width: 600px;
 }
 
 .App-logo {
